@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Yemane Teame">
-    <title>Last Gasp Furniture</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Even or Odd Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>Purchase Items</h1>
-    <button id="purchaseButton">Make a Purchase</button>
-    <div id="invoice"></div>
+    <div class="container">
+        <h1>Even/Odd</h1>
+        <div id="game">
+            <!-- Welcome message and start button -->
+            <p id="welcome"></p>
+            <button id="startButton">Start Game</button>
+            <div id="gameArea" style="display: none;">
+                <!-- Input for player's choice and play button -->
+                <p>Call Even or Odd:</p>
+                <input type="text" id="playerChoice" placeholder="even or odd">
+                <button id="playButton">Play</button>
+                <!-- Display result and score -->
+                <p id="result"></p>
+                <p id="score"></p>
+                <!-- Play again button -->
+                <button id="playAgainButton" style="display: none;">Play Again</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
-
 </html>
