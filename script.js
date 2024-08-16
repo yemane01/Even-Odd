@@ -1,5 +1,3 @@
-
-    
 // Initialize player name, wins, and losses
 let playerName = "";
 let wins = 0;
