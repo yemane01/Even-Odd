@@ -1,75 +1,48 @@
-/* Set the background color to black and text color to white for the entire body */
+/* Basic styling for the body */
 body {
-  background: #000;
-  color: #fff;
-  padding: 25px;
-  font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #ADFF2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-/* Style for horizontal rule */
-hr {
-  width: 100%;
-  margin: 20px auto;
+/* Container styling */
+.container {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/* Removed bullet points from the list in totals-section */
-.totals-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Center align text in invoice-section and set margins */
-.invoice-section {
-  text-align: center;
-  margin: 20px;
-}
-
-/* Style for paragraphs in invoice-section */
-.invoice-section p {
-  margin: 5px 0;
-  display: inline-block;
-  width: 20%;
-}
-
-/* Style for headings in invoice-section */
-.invoice-section h2 {
-  margin: 10px 0;
-}
-
-/* Align text to the left in totals-section and set margins */
-.totals-section {
-  text-align: left;
-  margin: 20px auto;
-  width: 80%;
-}
-
-/* Style for paragraphs in totals-section */
-.totals-section p {
-  margin: 5px 0;
-}
-
-/* Set color for h1 headings */
+/* Heading styling */
 h1 {
-  color: #333; 
+    margin-bottom: 20px;
 }
 
-/* Style for buttons */
+/* Button styling */
 button {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ADFF2F;
+    cursor: pointer;
 }
 
-/* Change button background color on hover */
 button:hover {
-  background-color: #45a049;
+    background-color: #0056b3;
 }
 
-/* Style for invoice section */
-#invoice {
-  margin-top: 20px;
-  border: 1px solid #ddd;
-  padding: 10px;
+/* Input styling */
+input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
+ 
